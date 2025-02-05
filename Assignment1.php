@@ -52,8 +52,42 @@ echo "After increment: $incremented <br><br>";
 echo "After decrement: $decremented <br>";
 echo "</div>";
 
+// Challenge 4
+$marks = 60;
+
+if ($marks >= 90) {
+    $grade = "A";
+} elseif ($marks >= 80) {
+    $grade = "B";
+} elseif ($marks >= 70) {
+    $grade = "C";
+} elseif ($marks >= 60) {
+    $grade = "D";
+} else {
+    $grade = "F";
+}
+
+echo "<div style='background-color: #f0f0f0; padding: 10px; width: 250px;'>";
+echo "<i>Expected Output</i><br><br>";
+echo "Input: $marks <br><br>";
+echo "Output: You got a $grade!";
+echo "</div>";
 
 
+// Challenge 5
+$year = 2023;
+
+if (($year % 4 == 0 && $year % 100 != 0) || ($year % 400 == 0)) {
+    $result = "$year is a leap year.";
+} else {
+    $result = "$year is not a leap year.";
+}
+
+echo "<div style='background-color: #f0f0f0; padding: 10px; width: 250px;'>";
+echo "<i>Expected Output</i><br><br>";
+echo "Input: $year <br><br>";
+echo "Output: $result";
+echo "</div>";
 
 
 
