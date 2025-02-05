@@ -38,6 +38,21 @@ echo "Output: $result";
 echo "</div>";
 
 
+// Challenge 3
+$number = 10;
+
+$incremented = ++$number;
+
+$decremented = --$number;
+
+echo "<div style='background-color: #f0f0f0; padding: 10px; width: 250px;'>";
+echo "<i>Expected Output</i><br><br>";
+echo "Starting number: 10 <br><br>";
+echo "After increment: $incremented <br><br>";
+echo "After decrement: $decremented <br>";
+echo "</div>";
+
+
 
 
 
